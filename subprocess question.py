@@ -1,8 +1,9 @@
 """
 This is an example of code that used to work, but does not work anymore.
 
-Setup:
+General Setup:
 Each doc.py has code inside that looks for its respective doc1_template.docx, fills it out, and saves a filled out version.
+Everything lives in C:\\Users\\user\\Desktop\\MainFolder.
 
 
 Issue:
