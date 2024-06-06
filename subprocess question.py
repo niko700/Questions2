@@ -5,7 +5,6 @@ General Setup:
 Each doc.py has code inside that looks for its respective doc1_template.docx, fills it out, and saves a filled out version.
 Everything lives in C:\\Users\\user\\Desktop\\MainFolder.
 
-
 Issue:
 When main directory had all the .py files and .docx templates, the following code worked.
 
@@ -20,7 +19,7 @@ This does not work when running this run_all.py from "MainFolder" directory wher
 import subprocess
 
 
-#print doc package
+#create doc package
 print("Printing doc package documents")
 
 subprocess.run(["python", "doc1.py"])
